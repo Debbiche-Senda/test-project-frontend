@@ -20,7 +20,7 @@ const Contact = () => {
           e.preventDefault();
           console.log(emails);
           axios
-            .post('/email', emails)
+            .post('/api/email', emails)
             .then((res) => {
               setEmails({ sent: true });
               window.confirm('Envoyé un autre message?');
