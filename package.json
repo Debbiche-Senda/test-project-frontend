@@ -21,7 +21,7 @@
     "eject": "react-scripts eject"
   },
 
-  "proxy": "http://localhost:3001",
+  "proxy": "https://senda-first-app.herokuapp.com",
 
   "eslintConfig": {
     "extends": [
